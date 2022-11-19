@@ -2,7 +2,7 @@
 Android Simple Movie Catalog App using Retrofit and Recycler View
 
 ## Pixabay API
-Sign up for the API key  on the following Link https://pixabay.com/api/docs/#api_search_images
+https://developers.themoviedb.org/3/getting-started/introduction
 
 ## Screenshots
 These are the app's screenshots:
