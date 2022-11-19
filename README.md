@@ -1,7 +1,7 @@
 # MovieCatalog
 Android Simple Movie Catalog App using Retrofit and Recycler View
 
-## Pixabay API
+## Movies API
 https://developers.themoviedb.org/3/getting-started/introduction
 
 ## Screenshots
