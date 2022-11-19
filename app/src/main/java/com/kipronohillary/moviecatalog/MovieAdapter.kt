@@ -1,5 +1,6 @@
 package com.cronocode.moviecatalog
 
+import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -12,7 +13,7 @@ import com.kipronohillary.moviecatalog.modals.Movie
 
 
 class MovieAdapter(
-    private val movies : List<Movie>
+    private var context:Context, private val movies: List<Movie>
 ) : RecyclerView.Adapter<MovieAdapter.MovieViewHolder>(){
 
     class MovieViewHolder(view : View) : RecyclerView.ViewHolder(view){
@@ -43,6 +44,6 @@ class MovieAdapter(
         holder.mtitle.text=currentMovie.title
         holder.mdate.text=currentMovie.release
 
-        Glide.with(holder.itemView).load(IMAGE_BASE+holder.mImage).into(holder.mImage)
+        Glide.with(context).load(IMAGE_BASE+ movies[position].poster).into(holder.mImage)
     }
 }

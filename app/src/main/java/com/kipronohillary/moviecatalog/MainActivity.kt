@@ -1,5 +1,6 @@
 package com.kipronohillary.moviecatalog
 
+import android.content.Context
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -23,7 +24,7 @@ class MainActivity : AppCompatActivity() {
         binding.rvMoviesList.layoutManager=LinearLayoutManager(this)
         binding.rvMoviesList.setHasFixedSize(true)
         getMovieData { movies : List<Movie> ->
-            binding.rvMoviesList.adapter=MovieAdapter(movies)
+            binding.rvMoviesList.adapter=MovieAdapter(applicationContext,movies)
 
     }
 
