@@ -8,6 +8,8 @@ https://developers.themoviedb.org/3/getting-started/introduction
 These are the app's screenshots:
 
 <img src="screenshots/demo1.png" width="330"/><img src="https://github.com/HillaryKiprono/MovieCatalog/blob/master/Screenshot_20221119-125038.jpg" width="330"/>
+<img src="screenshots/demo1.png" width="330"/><img src="https://github.com/HillaryKiprono/MovieCatalog/blob/master/screenshot2" width="330"/>
+
 
 
 ## Demo
